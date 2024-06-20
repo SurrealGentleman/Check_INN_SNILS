@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>lab2 "ИНН", "СНИЛС"</title>
+</head>
+<body>
+	<form action="../php/inn_snils.php" method="post">
+		<h2>Введите ИНН</h2>
+		<input type="text" name="inn">
+		<input type="submit">
+	</form>
+	<form action="../php/inn_snils.php" method="post">
+		<h2>Введите СНИЛС</h2>
+		<input type="text" name="snils" pattern="^\d{3}[-\s]\d{3}[-\s]\d{3}[-\s]\d{2}$" placeholder="___-___-___ __">
+		<input type="submit">
+	</form>
+</body>
+</html>
