@@ -10,3 +10,6 @@
 
 ![inn](img/inn.png)
 ![snils](img/snils.png)
+
+---
+*09/2022 - 12/2022*
